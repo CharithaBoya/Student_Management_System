@@ -1,3 +1,3 @@
---Add multiple courses to a student
+--Enroll a student into multiple courses (bulk insert).
 INSERT INTO enrollment (student_id, course_id)
 VALUES (1, 101), (1, 102), (1, 103);
