@@ -15,9 +15,13 @@ We are working with a **Student Management System**. The data models include:
 # Relational Schema (PostgreSQL)
 
 student(id, name, email, phone)
+
 address(student_id, street, city, state)       -- 1-to-1
+
 course(id, name, description)
+
 enrollment(student_id, course_id)              -- many-to-many
+
 marks(student_id, course_id, score)            -- 1-to-many
 
 
